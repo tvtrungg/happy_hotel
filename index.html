@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="./animation.js"></script>
+
+    <title>Hotel</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="btn_phone_mail">
+            <span>
+                <a class="icon_phone" href="">
+                    <ion-icon name="call-outline"></ion-icon>
+                </a>
+            </span>
+
+            <span>
+                <a href="">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </a>
+            </span>
+
+        </div>
+        <header id="header">
+            <div class="phone_mail">
+                <div class="phone">
+                    <ion-icon style="margin-right: 5px;" name="phone-portrait-outline"></ion-icon>
+                    <p>Phone: +84 123 456 789</p>
+                </div>
+                <div class="mail">
+                    <ion-icon style="margin-right: 5px;" name="mail-outline"></ion-icon>
+                    <p>Mail: vinhtrung@gmail.com</p>
+                </div>
+            </div>
+
+            <ul class="nav_menu">
+                <div class="nav_menu_top">
+                    <li>
+                        <a href="#INTRO">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                        <ion-icon name="chevron-down-outline"
+                            style="color:#fff;font-size:17px;transform: translate(-10px,3px); cursor: pointer;"></ion-icon>
+                        <div class="subnav_menu sub_nav_about">
+                            <ul>
+                                <li> <a href="">About us</a> </li>
+                                <li> <a href="">Our Team</a> </li>
+                                <li> <a href="">Testimonials</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#ROOM_SUITES">Room & Suite</a>
+                        <ion-icon name="chevron-down-outline"
+                            style="color:#fff;font-size:17px;transform: translate(-10px,3px); cursor: pointer;"></ion-icon>
+                        <div class="subnav_menu sub_nav_about">
+                            <ul>
+                                <li> <a href="">classic room</a> </li>
+                                <li> <a href="">deluxe room</a> </li>
+                                <li> <a href="">family room</a> </li>
+                                <li> <a href="">junior room</a> </li>
+                                <li> <a href="">excutive room</a> </li>
+                                <li> <a href="">vip room</a> </li>
+                                <li> <a href="">president room</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#FEEDBACK">Dinning & Experience</a>
+                        <ion-icon name="chevron-down-outline"
+                            style="color:#fff;font-size:17px;transform: translate(-10px,3px); cursor: pointer;"></ion-icon>
+                        <div class="subnav_menu sub_nav_about">
+                            <ul>
+                                <li> <a href="">restaurant</a> </li>
+                                <li> <a href="">sky bar</a> </li>
+                                <li> <a href="">spa</a> </li>
+                                <li> <a href="">promotion</a> </li>
+                                <li> <a href="">CLUB CHILL</a> </li>
+                                <li> <a href="">SWIMMING POOL</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/logo.PNG" alt="">
+                    </li>
+                    <li>
+                        <a href="">New & Event</a>
+                        <ion-icon name="chevron-down-outline"
+                            style="color:#fff;font-size:17px;transform: translate(-10px,3px); cursor: pointer;"></ion-icon>
+                        <div class="subnav_menu sub_nav_about">
+                            <ul>
+                                <li> <a href="">cuisine</a> </li>
+                                <li> <a href="">DESTINATION</a> </li>
+                                <li> <a href="">PLAY POINT</a> </li>
+                                <li> <a href="">EXPERIENCE</a> </li>
+                                <li> <a href="">FESTIVAL</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Tour Service</a>
+                        <ion-icon name="chevron-down-outline"
+                            style="color:#fff;font-size:17px;transform: translate(-10px,3px); cursor: pointer;"></ion-icon>
+                        <div class="subnav_menu sub_nav_about">
+                            <ul>
+                                <li> <a href="">HANOI CITY TOUR</a> </li>
+                                <li> <a href="">STREET FOOD TOUR</a> </li>
+                                <li> <a href="">SAPA TOUR</a> </li>
+                                <li> <a href="">NINH BINH TOUR</a> </li>
+                                <li> <a href="">TRAVEL GUIDE</a> </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </div>
+
+                <div class="nav_menu_bot">
+                    <hr width="100%" size="0" color="#ccc" />
+                </div>
+            </ul>
+
+        </header>
+
+        <main id="content">
+            <!-- Introduce -->
+            <div id="INTRO" class="introduce">
+                <div class="image-slider">
+                    <div class="image-item">
+                        <h1>Enjoy Your Life</h1>
+                        <div class="btn_RM col-md-3 col-sm-3 col-xs-6">
+                            <a href="#" class="btn btn-sm animated-button victoria-two">Read More</a>
+                        </div>
+                        <img src="./img/Suite Balcony.jpg" alt="">
+                        <div class="after"> </div>
+                    </div>
+                    <div class="image-item">
+                        <h1>Your Journey Begins Here</h1>
+                        <div class="btn_RM col-md-3 col-sm-3 col-xs-6">
+                            <a href="#" class="btn btn-sm animated-button victoria-two">Read More</a>
+                        </div>
+                        <img src="./img/Diamond-Bar-Day-Light-1.jpg" alt="">
+                        <div class="after"> </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROOMS & SUITES -->
+            <h1 style="font-weight: 500;color: #917300;margin-left: 50px;font-family:'Playfair Display', serif">
+                ROOMS & SUITES
+            </h1>
+
+            <div id="ROOM_SUITES" class="rooms_suites">
+                <div class="container_room_types">
+                    <div class="room_types">
+                        <img src="./img/ClassicRoom.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>CLASSIC ROOM</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Beach View</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href=""><button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/Delexu.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>DELUXE ROOM</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>City New</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max.Occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/Family.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>FAMILY ROOM</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Ha Long Bay</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/Vip.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>VIP ROOM</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Horizon Line</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/president.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>PRESIDENT ROOM</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Sea Sunset</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/junior.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>JUNIOR SUITE</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Skyscraper</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="room_types">
+                        <img src="./img/excutive.jpg" alt="">
+                        <div class="room_types_content">
+                            <h2>EXECUTIVE SUITE</h2>
+                            <p>Comfy & cozy, accommodate up to 2 persons.</p>
+                            <p class="description">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span>Free Wi-Fi / Breakfast</span>
+                            </p>
+                            <p class="description">
+                                <ion-icon name="eye-outline"></ion-icon>
+                                <span>Window View: <b>Sea City</b> </span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="person-outline"></ion-icon>
+                                <span>Max. occupancy: 2 pax</span>
+                            </p>
+
+                            <p class="description">
+                                <ion-icon name="bed-outline"></ion-icon>
+                                <span>Double Bed</span>
+                            </p>
+                            <div class="book_room">
+                                <a href="#"> <button class="custom-btn btn-1">Book Now</button></a>
+                                <p>500.000VND</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- HOTEL SERVICES -->
+            <h1 style="font-weight: 500;margin-left: 50px;font-family:'Playfair Display', serif;">
+                <span style="color: #917300">HOTEL</span> SERVICES
+            </h1>
+
+            <div class="hotel_service">
+
+                <ul class="hotel_service_flex cs-style-6">
+                    <li>
+                        <figure>
+                            <img src="./img/Skybar.jpg" alt="img01">
+                            <figcaption>
+                                <h3>Sky Bar</h3>
+                                <span>Bring a modern, youthful, friendly.</span>
+                                <a href="#">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/restaurant.jpg" alt="img03">
+                            <figcaption>
+                                <h3>RESTAURANT</h3>
+                                <span>Serving signature dishes every day.</span>
+                                <a href="#">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/promotion.jpg" alt="img04">
+                            <figcaption>
+                                <h3>PROMOTION</h3>
+                                <span>Acoustic coffee on the rooftop.</span>
+                                <a href="#">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/spa.jpg" alt="img02">
+                            <figcaption>
+                                <h3>SPA</h3>
+                                <span>Coming Soon</span>
+                                <a href="http://dribbble.com/shots/1115960-Music">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/clubchill.jpg" alt="img05">
+                            <figcaption>
+                                <h3>CLUB CHILL</h3>
+                                <span>Enjoy relaxing moments with friends.</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./img/pool.jpg" alt="img06">
+                            <figcaption>
+                                <h3>SWIMMING POOL</h3>
+                                <span>A place to relax after a tiring day.</span>
+                                <a href="http://dribbble.com/shots/1118904-Game-Center">Book Now</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- FEED BACK -->
+            <h1 style="color: #917300;font-weight: 500;margin-left: 50px;font-family:'Playfair Display', serif;">
+                SHARE MOMENTS
+            </h1>
+            <div id="FEEDBACK" class="share_moment">
+                <div class="share_content_top">
+                    <p><i style="color:#939393">Share your moment with us!</i></p>
+                    <h3>#HAPPYHOTEL</h3>
+                    <p><ion-icon name="logo-instagram"></ion-icon>Discover Happy Hotel through the eyes of our guests.
+                        Share your experience with #EAGLEHOTEL
+                        and mention @HAPPYHOTEL for chance to be featured.</p>
+                </div>
+
+                <div class="feedback_container">
+                    <div class="feedback_item">
+                        <img src="./img/feedback/1.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/2.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/3.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/4.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/5.jpg" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/6.JPG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/7.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/8.PNG" alt="">
+                    </div>
+                    <div class="feedback_item">
+                        <img src="./img/feedback/9.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- NEWS -->
+            <div class="hotel_news">
+                <div class="news_container">
+                    <h1> NEWS </h1>
+                    <div class="news_item">
+                        <img src="./img/news/1.jpg" alt="">
+                        <div class="news_content">
+                            <div class="news_content_top">
+                                <div class="data_news">
+                                    <p>21</p>
+                                    <p>NOVEMBER</p>
+                                </div>
+                                <h4>GEO - CULTURAL FACTORS</h4>
+                            </div>
+                            <p class="p_contentnews">The geo-cultural factor is the territory of the land, the specific
+                                characteristics and
+                                advantages of geographical position, the natural conditions that directly affect and
+                                leave a mark in the cultural life of residents. The culture of the residents of BR-VT...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="news_item">
+                        <img src="./img/news/2.jpg" alt="">
+                        <div class="news_content">
+                            <div class="news_content_top">
+                                <div class="data_news">
+                                    <p>25</p>
+                                    <p>DECEMBER</p>
+                                </div>
+                                <h4>QUOC TU GIAM TEMPLE</h4>
+                            </div>
+                            <p class="p_contentnews">If you name the top tourist attractions in Hanoi in the past and
+                                now, perhaps everyone will immediately think of Van Mieu Quoc Tu Giam. This is a leading
+                                cultural...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="news_item">
+                        <img src="./img/news/3.jpg" alt="">
+                        <div class="news_content">
+                            <div class="news_content_top">
+                                <div class="data_news">
+                                    <p>21</p>
+                                    <p>NOVEMBER</p>
+                                </div>
+                                <h4>HANOI OLD QUARTER...</h4>
+                            </div>
+                            <p class="p_contentnews">If you want to learn about the life, culture and people of Trang
+                                An, you should not ignore the old town - one of the tourist attractions in Hanoi full of
+                                interesting and attractive to...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EVENT -->
+            <div class="hotel_events">
+                <div class="events_container">
+
+                    <div class="events_item">
+                        <img src="./img/events/1.jpg" alt="">
+                        <div class="events_content">
+                            <div class="events_content_top">
+                                <div class="data_events">
+                                    <p>21</p>
+                                    <p>NOVEMBER</p>
+                                </div>
+                                <h4>NGHINH ONG FESTIVAL</h4>
+                            </div>
+                            <p class="p_contentevents">Held at Lang Co Ong, Hoang Hoa Tham street, Vung Tau city, Nghinh
+                                Ong festival to honor Ca Ong. According to the concept of fishermen in Vung Tau coastal
+                                area,...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="events_item">
+                        <img src="./img/events/2.jpg" alt="">
+                        <div class="events_content">
+                            <div class="events_content_top">
+                                <div class="data_events">
+                                    <p>25</p>
+                                    <p>DECEMBER</p>
+                                </div>
+                                <h4>TEMPLE FESTIVAL BA NGU HANH</h4>
+                            </div>
+                            <p class="p_contentevents">Festival of Ba Ngu Hanh Temple Together with the mausoleum of Mr.
+                                Nam Hai and the communal house of Thang Tam, the temple of Ba Ngu Hanh forms an
+                                architectural...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <div class="events_item">
+                        <img src="./img/events/3.jpg" alt="">
+                        <div class="events_content">
+                            <div class="events_content_top">
+                                <div class="data_events">
+                                    <p>21</p>
+                                    <p>NOVEMBER</p>
+                                </div>
+                                <h4>UNIQUE TRUNG CUU FESTIVAL IN VUNG TAU CITY</h4>
+                            </div>
+                            <p class="p_contentevents">Traveling to Vung Tau in September of lunar calendar, you will be
+                                participating in Trung Cuu festival. This festival is held every year, praying for
+                                peace, health and...
+                            </p>
+                            <a href="#">Read more <ion-icon name="arrow-forward-circle-outline"></ion-icon></a>
+                        </div>
+                    </div>
+                    <h1> EVENTS </h1>
+                </div>
+            </div>
+
+            <!-- MAPS -->
+            <h1 style="color: #917300;font-weight: 500;margin-left: 50px;font-family:'Playfair Display', serif;">
+                LOCATION
+            </h1>
+            <div class="hotel_map">
+                <div class="maps_content">
+                    <h1 style="text-align: center;font-family: 'Montserrat', sans-serif;font-weight: 600;">HAPPY HOTEL</h1>
+                    <ion-icon name="location-outline"></ion-icon><p>Address: 123 Nguyen Van Linh, Tp.Ho Chi Minh</p> 
+                    <br>
+                    <ion-icon name="phone-portrait-outline"></ion-icon><p>Phone: +84 123 456 789</p> 
+                    <br>
+                    <ion-icon name="mail-unread-outline"></ion-icon><p>Email:
+                        <a href="mailto: trung@info.com.vn"> trung@info.com.vn</a></p> 
+
+
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1712.8693326547511!2d106.68953587273144!3d10.733242136149904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f5caf944d0b%3A0x8d472bdaa02fcbaf!2sSweet%20Hotel!5e0!3m2!1svi!2s!4v1673868085019!5m2!1svi!2s"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+
+        <footer id="FOOTER">
+            <div class="footer_container">
+                <div class="footer-top">
+                    <div class="footer_row">
+                        <div class="col-md-6 col-lg-3 about-footer">
+                            <h3>Communications </h3>
+                            <ul>
+                                <li>
+                                    <a href="tel:(+84) 1234 4321">
+                                        <ion-icon name="call-outline"></ion-icon>
+                                        (+84) 1234 4321
+                                    </a>
+                                </li>
+                                <li><ion-icon name="location-outline"></ion-icon></i>
+                                    123 Nguyễn Văn Cừ / TP.HCM
+                                </li>
+                            </ul>
+                            <a href="" class="btn red-btn">Book Now</a>
+                        </div>
+                        <div class="col-md-6 col-lg-2 page-more-info">
+                            <div class="footer-title">
+                                <h4>Page links</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 col-lg-3 page-more-info">
+                            <div class="footer-title">
+                                <h4>More Info</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">PRIVACY POLICY</a></li>
+                                <li><a href="#">TERMS & CONDITIONS</a></li>
+                                <li><a href="#">COVID - 19 SAFETY & NOTICE</a></li>
+                                <li><a href="#">PAYMENT METHODS</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-lg-4 open-hours">
+                            <div class="footer-title">
+                                <h4>Open hours</h4>
+                                <ul class="footer-social">
+                                    <li><a href="" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                    <li><a href="" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                                    <li><a href="" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+
+                                </ul>
+                            </div>
+                            <table class="footer_table">
+                                <tbody>
+                                    <tr>
+                                        <td><ion-icon name="time-outline"></ion-icon>Monday</td>
+                                        <td>9:00am - 5:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><ion-icon name="time-outline"></ion-icon>Friday</td>
+                                        <td>9:00am - 4:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><ion-icon name="time-outline"></ion-icon>Sturday</td>
+                                        <td>9:00am - 1:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><ion-icon name="time-outline"></ion-icon>Sunday</td>
+                                        <td>9:30am - 12:00pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div class="footer_row">
+                        <div class="col-sm-8">
+                            <p>Copyright © Happy Hotel 2023 | @vinhtrung.vn</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="./script.js"></script>
+</body>
+
+</html>
