@@ -53,7 +53,6 @@ $(window).scroll(function () {
 	if ($(this).scrollTop() > 100) {
 		$('#header').addClass('active');
 		/*thay đổi img của nav_menu_top li  */
-		/*How add logo2 inside  .nav_menu_top li img*/
 		$('.nav_menu_top li img').attr('src', '../src/img/logo2.png');
 
 	} else {

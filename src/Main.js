@@ -1,12 +1,45 @@
 import './index.css';
-import './script.js';
+import $ from 'jquery'; 
 import Suite_Balcony from '../src/img/room/Suite_Balcony.jpg';
+import Diamond_Bar_Day_Light_1 from '../src/img/room/Diamond-Bar-Day-Light-1.jpg';
+import Classic_Room from '../src/img/room/ClassicRoom.jpg';
+import Deluxe_Room from '../src/img/room/Delexu.jpg';
+import Family_Room from '../src/img/room/Family.jpg';
+import Junior_Room from '../src/img/room/junior.jpg';
+import Excutive_Room from '../src/img/room/excutive.jpg';
+import Vip_Room from '../src/img/room/Vip.jpg';
+import President_Room from '../src/img/room/president.jpg'
 
-import IMAGES_ROOM from './img/room.js';
-import IMAGES_EVENTS from './img/events.js';
-import IMAGES_NEWS from './img/news.js';
-import IMAGES_FEEDBACK from './img/feedback.js';
-import IMAGES_SERVICES from './img/services.js';
+import event_1 from '../src/img/events/1.jpg';
+import event_2 from '../src/img/events/2.jpg';
+import event_3 from '../src/img/events/3.jpg';
+
+import news_1 from '../src/img/news/1.jpg'; 
+import news_2 from '../src/img/news/2.jpg';
+import news_3 from '../src/img/news/3.jpg';
+
+import feedback_1 from '../src/img/feedback/1.PNG';
+import feedback_2 from '../src/img/feedback/2.PNG';
+import feedback_3 from '../src/img/feedback/3.PNG';
+import feedback_4 from '../src/img/feedback/4.PNG';
+import feedback_5 from '../src/img/feedback/5.jpg';
+import feedback_6 from '../src/img/feedback/6.JPG';
+import feedback_7 from '../src/img/feedback/7.PNG';
+import feedback_8 from '../src/img/feedback/8.PNG';
+import feedback_9 from '../src/img/feedback/9.PNG';
+
+import Sky_spa from '../src/img/services/Skybar.jpg';
+import Restaurant from '../src/img/services/restaurant.jpg';
+import Promotion from '../src/img/services/promotion.jpg';
+import Club_Chill from '../src/img/services/clubchill.jpg';
+import Swimming_Pool from '../src/img/services/pool.jpg';
+import Spa from '../src/img/services/spa.jpg';
+
+// import IMAGES_ROOM from '../src/img/img/room.js';
+// import IMAGES_EVENTS from '../src/img/img/events.js';
+// import IMAGES_NEWS from '../src/img/img/news.js';
+// import IMAGES_FEEDBACK from '../src/img/img/feedback.js';
+// import IMAGES_SERVICES from '../src/img/img/services.js';
 
 
 
@@ -30,7 +63,7 @@ function Main() {
                             <div className="btn_RM col-md-3 col-sm-3 col-xs-6">
                                 <a href="" className="btn btn-sm animated-button victoria-two">Read More</a>
                             </div>
-                            <img src={IMAGES_ROOM.Diamond_Bar_Day_Light_1} alt="image" />
+                            <img src={Diamond_Bar_Day_Light_1} alt="image" />
                             <div className="after"> </div>
                         </div>
                     </div>
@@ -42,7 +75,7 @@ function Main() {
                 <div id="ROOM_SUITES" className="rooms_suites">
                     <div className="container_room_types">
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Classic_Room} alt="image" />
+                            <img src={Classic_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>CLASSIC ROOM</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -69,7 +102,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Deluxe_Room} alt="image" />
+                            <img src={Deluxe_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>DELUXE ROOM</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -96,7 +129,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Family_Room} alt="image" />
+                            <img src={Family_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>FAMILY ROOM</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -123,7 +156,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Vip_Room} alt="image" />
+                            <img src={Vip_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>VIP ROOM</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -150,7 +183,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.President_Room} alt="image" />
+                            <img src={President_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>PRESIDENT ROOM</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -177,7 +210,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Junior_Room} alt="image" />
+                            <img src={Junior_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>JUNIOR SUITE</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -204,7 +237,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="room_types">
-                            <img src={IMAGES_ROOM.Excutive_Room} alt="image" />
+                            <img src={Excutive_Room} alt="image" />
                             <div className="room_types_content">
                                 <h2>EXECUTIVE SUITE</h2>
                                 <p>Comfy &amp; cozy, accommodate up to 2 persons.</p>
@@ -241,7 +274,7 @@ function Main() {
                     <ul className="hotel_service_flex cs-style-6">
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Sky_spa} alt="img01" />
+                                <img src={Sky_spa} alt="img01" />
                                 <figcaption>
                                     <h3>Sky Bar</h3>
                                     <span>Bring a modern, youthful, friendly.</span>
@@ -251,7 +284,7 @@ function Main() {
                         </li>
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Restaurant} alt="img03" />
+                                <img src={Restaurant} alt="img03" />
                                 <figcaption>
                                     <h3>RESTAURANT</h3>
                                     <span>Serving signature dishes every day.</span>
@@ -261,7 +294,7 @@ function Main() {
                         </li>
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Promotion} alt="img04" />
+                                <img src={Promotion} alt="img04" />
                                 <figcaption>
                                     <h3>PROMOTION</h3>
                                     <span>Acoustic coffee on the rooftop.</span>
@@ -271,7 +304,7 @@ function Main() {
                         </li>
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Spa} alt="img02" />
+                                <img src={Spa} alt="img02" />
                                 <figcaption>
                                     <h3>SPA</h3>
                                     <span>Coming Soon</span>
@@ -281,7 +314,7 @@ function Main() {
                         </li>
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Club_Chill} alt="img05" />
+                                <img src={Club_Chill} alt="img05" />
                                 <figcaption>
                                     <h3>CLUB CHILL</h3>
                                     <span>Enjoy relaxing moments with friends.</span>
@@ -291,7 +324,7 @@ function Main() {
                         </li>
                         <li>
                             <figure>
-                                <img src={IMAGES_SERVICES.Swimming_Pool} alt="img06" />
+                                <img src={Swimming_Pool} alt="img06" />
                                 <figcaption>
                                     <h3>SWIMMING POOL</h3>
                                     <span>A place to relax after a tiring day.</span>
@@ -316,31 +349,31 @@ function Main() {
                     </div>
                     <div className="feedback_container">
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_1} alt="image" />
+                            <img src={feedback_1} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_2} alt="image" />
+                            <img src={feedback_2} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_3} alt="image" />
+                            <img src={feedback_3} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_4} alt="image" />
+                            <img src={feedback_4} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_5} alt="image" />
+                            <img src={feedback_5} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_6} alt="image" />
+                            <img src={feedback_6} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_7} alt="image" />
+                            <img src={feedback_7} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_8} alt="image" />
+                            <img src={feedback_8} alt="image" />
                         </div>
                         <div className="feedback_item">
-                            <img src={IMAGES_FEEDBACK.feedback_9} alt="image" />
+                            <img src={feedback_9} alt="image" />
                         </div>
                     </div>
                 </div>
@@ -350,7 +383,7 @@ function Main() {
                     <div className="news_container">
                         <h1> NEWS </h1>
                         <div className="news_item">
-                            <img src={IMAGES_NEWS.news_1} alt="image" />
+                            <img src={news_1} alt="image" />
                             <div className="news_content">
                                 <div className="news_content_top">
                                     <div className="data_news">
@@ -368,7 +401,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="news_item">
-                            <img src={IMAGES_NEWS.news_2} alt="image" />
+                            <img src={news_2} alt="image" />
                             <div className="news_content">
                                 <div className="news_content_top">
                                     <div className="data_news">
@@ -385,7 +418,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="news_item">
-                            <img src={IMAGES_NEWS.news_3} alt="image" />
+                            <img src={news_3} alt="image" />
                             <div className="news_content">
                                 <div className="news_content_top">
                                     <div className="data_news">
@@ -408,7 +441,7 @@ function Main() {
                 <div className="hotel_events">
                     <div className="events_container">
                         <div className="events_item">
-                            <img src={IMAGES_EVENTS.event_1} alt="image" />
+                            <img src={event_1} alt="image" />
                             <div className="events_content">
                                 <div className="events_content_top">
                                     <div className="data_events">
@@ -425,7 +458,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="events_item">
-                            <img src={IMAGES_EVENTS.event_2} alt="image" />
+                            <img src={event_2} alt="image" />
                             <div className="events_content">
                                 <div className="events_content_top">
                                     <div className="data_events">
@@ -442,7 +475,7 @@ function Main() {
                             </div>
                         </div>
                         <div className="events_item">
-                            <img src={IMAGES_EVENTS.event_3} alt="image" />
+                            <img src={event_3} alt="image" />
                             <div className="events_content">
                                 <div className="events_content_top">
                                     <div className="data_events">
@@ -481,5 +514,54 @@ function Main() {
         </div>
     );
 }
+
+
+
+$(document).ready(function () {
+	$(".image-slider").slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		adaptiveHeight: true,
+		arrows: false
+
+
+	});
+});
+
+$(document).ready(function () {
+	$(".container_room_types").slick({
+		dots: true,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 3,
+		slidesToScroll: 2,
+		adaptiveHeight: true,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		speed: 1000,
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-prev_suites"><ion-icon name="arrow-back-outline"></ion-icon></button>',
+		nextArrow: '<button type="button" class="slick-next_suites"><ion-icon name="arrow-forward-outline"></ion-icon></button>',
+
+	});
+});
+
+$(document).ready(function () {
+	$(".feedback_container").slick({
+		dots: false,
+		infinite: true,
+		speed: 300,
+		slidesToShow: 4,
+		slidesToScroll: 3,
+		adaptiveHeight: true,
+		speed: 700,
+		arrows: true,
+		prevArrow: '<button type="button" class="slick-prev_feedback"><ion-icon name="arrow-back-outline"></ion-icon></button>',
+		nextArrow: '<button type="button" class="slick-next_feedback"><ion-icon name="arrow-forward-outline"></ion-icon></button>',
+	});
+});
+
 
 export default Main;
