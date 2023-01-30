@@ -508,7 +508,7 @@ a.animated-button.victoria-two:after {
 }
 
 .rooms_suites .container_room_types .room_types img {
-    width: 370px;
+    width: 390px;
     height: 200px;
     /*border radius top left and top right*/
     border-top-left-radius: 10px;
@@ -517,7 +517,7 @@ a.animated-button.victoria-two:after {
 
 .rooms_suites .container_room_types .slick-dots {
     position: absolute;
-    bottom: -17px;
+    bottom: -28px;
     left: 50%;
     transform: translateX(-50%);
     display: flex !important;
@@ -548,7 +548,7 @@ a.animated-button.victoria-two:after {
 }
 
 .container_room_types .room_types .room_types_content {
-    width: 370px;
+    width: 390px;
     background-color: #ffd83be6;
     padding: 12px;
     border-bottom-left-radius: 10px;
@@ -570,18 +570,38 @@ a.animated-button.victoria-two:after {
     z-index: 10;
     font-size: 25px;
     background-color: transparent;
+    color: #000;
 }
 
 .slick-prev_suites {
     left: 0;
-    transform: translate(-30px, -27px);
+    transform: translate(-45px, -27px);
 
 }
 
-.slick-next_suites {
-    right: 0;
-    transform: translate(10px, -26px);
+.slick-prev_suites::before {
+    display: none;
+}
 
+.slick-next_suites::before {
+    display: none;
+}
+
+.slick-dots li button::before{
+    display: none;
+}
+
+
+
+
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+    color: #000;
+    background: transparent;
+    outline: none;
+}
+
+.slick-next_suites{
+    right: -43px;
 }
 
 .custom-btn {
