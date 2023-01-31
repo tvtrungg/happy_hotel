@@ -1,4 +1,5 @@
 import '../assets/css/index.css';
+import '../assets/css/responsive.css';
 import $ from 'jquery';
 import logo from '../img/logo.PNG';
 import logo2 from '../img/logo2.png';
@@ -43,6 +44,7 @@ import Spa from '../img/services/spa.jpg';
 // import IMAGES_NEWS from '../img/img/news.js';
 // import IMAGES_FEEDBACK from '../img/img/feedback.js';
 // import IMAGES_SERVICES from '../img/img/services.js';
+
 
 import React from 'react';
 import Slider from "react-slick";
